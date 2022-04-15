@@ -1,4 +1,4 @@
-package net.fabricmc.language.groovy
+package one.codehz.mcmod.language.groovy
 
 import net.fabricmc.loader.api.LanguageAdapter
 import net.fabricmc.loader.api.LanguageAdapterException

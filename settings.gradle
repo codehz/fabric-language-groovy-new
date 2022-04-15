@@ -4,9 +4,13 @@ pluginManagement {
 			name = 'Fabric'
 			url = 'https://maven.fabricmc.net/'
 		}
+		maven {
+			name = 'mvnrepository'
+			url = 'https://mvnrepository.com/'
+		}
 		gradlePluginPortal()
 		mavenCentral()
 	}
 }
 
-rootProject.name = 'fabric-language-groovy'
+rootProject.name = 'fabric-language-groovy-new'
