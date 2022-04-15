@@ -1,4 +1,5 @@
 # fabric-language-groovy-new
+![jitpack badge](https://jitpack.io/v/one.codehz/fabric-language-groovy-new.svg)
 A Fabric Language module for the Apache Groovy programming language.
 Updated groovy version to 4.0.1
 
