@@ -3,6 +3,7 @@ plugins {
 	id "maven-publish"
 	id "com.github.johnrengelman.shadow" version "7.1.2"
 	id "fabric-loom" version "0.12.9"
+	id 'com.palantir.git-version' version "0.15.0"
 }
 
 archivesBaseName = modid
@@ -10,7 +11,7 @@ archivesBaseName = modid
 sourceCompatibility = JavaVersion.VERSION_1_8
 targetCompatibility = JavaVersion.VERSION_1_8
 
-version = mod_version
+version gitVersion()
 def ENV = System.getenv()
 version = version + (ENV.GITHUB_ACTIONS ? "" : "+local")
 
