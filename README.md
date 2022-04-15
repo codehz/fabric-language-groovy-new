@@ -7,13 +7,13 @@ Updated groovy version to 4.0.1
 Add it as a dependency:
 ```
 dependencies {
-	compile "one.codehz.mcmod:fabric-language-groovy-new:0.1.0"
+	compile "one.codehz:fabric-language-groovy-new:0.1.0"
 }
 ```
 Set the language adapter for your mod to use by setting the languageAdapter property in the mod.json file:
 ```
 {
-  "languageAdapter": "one.codehz.mcmod.language.groovy.GroovyLanguageAdapter"
+  "languageAdapter": "one.codehz.language.groovy.GroovyLanguageAdapter"
 }
 ```
 Add a dependency entry to your mod.json file:

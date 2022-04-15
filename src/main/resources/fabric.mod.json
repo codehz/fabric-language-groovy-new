@@ -5,6 +5,6 @@
   "description": "Fabric language module for Groovy (4.0+).",
   "version": "${version}",
   "languageAdapters": {
-    "groovy": "one.codehz.mcmod.language.groovy.GroovyLanguageAdapter"
+    "groovy": "one.codehz.language.groovy.GroovyLanguageAdapter"
   }
 }
